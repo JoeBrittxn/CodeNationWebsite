@@ -1,0 +1,94 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Girassol);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-image: url('Pics/IMG_2179.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Styling for the border */
+#top-border, #bottom-border, #left-border, #right-border {
+    background: #cda95c;
+    position: fixed;
+}
+#left-border, #right-border {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+    #left-border { left: 0; }
+    #right-border { right: 0; }
+    
+#top-border, #bottom-border {
+    left: 0; right: 0;
+    height: 15px;
+    }
+    #top-border { top: 0; }
+    #bottom-border { bottom: 0; }
+
+
+
+
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    display: flex;
+    float: left;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li a {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px; 
+    font-family: 'Oswald', sans-serif;
+    width: 50%;
+
+}
+
+/* Unvisited Link */
+a:link {
+    color: grey;
+}
+/* visited link */
+a:visited {
+    color: grey;
+}
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+/* selected link */
+a:active {
+    color: grey;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Girassol';
+}
+
+p {
+    margin: auto;
+    width: 60%;
+    background-color: rgba(73, 86, 52, 0.7);
+    font-family: 'Playfair Display', serif;
+    border: 2px solid black;
+    text-align: left;
+}

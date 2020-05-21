@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joe's Website</title>
+    <link rel="stylesheet" href="styleindex.css">
+<script>
+
+
+// Changes About into Russian
+
+function changeText1() {
+    document.getElementById("about").innerHTML = "Обо мне";
+}
+function changeBack1() {
+    document.getElementById("about").innerHTML = "About Me";
+}
+
+// Changes Unit 1 into russian
+function  changeText2() {
+    document.getElementById("Unit1").innerHTML = "Раздел 1";
+}
+function changeBack2 () {
+    document.getElementById("Unit1").innerHTML = "Unit 1";
+}
+
+
+function  changeText3 () {
+    document.getElementById("Unit2").innerHTML = "Раздел 2";
+}
+function changeBack3 () {
+    document.getElementById("Unit2").innerHTML = "Unit 2";
+}
+
+
+</script>
+</head>
+
+
+
+<body>
+
+    <!-- For the border around the edges. -->
+<div id="left-border"></div>
+<div id="right-border"></div>
+<div id="top-border"></div>
+<div id="bottom-border"></div>
+
+
+<ul class = "navbar">
+<li><a href = "aboutme.html" id= "about" onmouseover = "changeText1()" onmouseout = "changeBack1()"> About Me </a></li>
+<li><a href = "unit1.html" id= "Unit1" onmouseover = "changeText2()" onmouseout= "changeBack2()"> Unit 1 </a></li>
+<li><a href = "unit2.html" id= "Unit2" onmouseover = "changeText3()" onmouseout= "changeBack3()"> Unit 2 </a></li>
+</ul>
+
+
+
+
+<h1 class="fade_in"> Welcome. </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
